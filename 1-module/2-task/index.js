@@ -16,7 +16,7 @@ function isValid(name) {
   for (let char of name){
     if (char===' '){
       return false}
-  }  
+  }
   return(name.length > 3)
 }
 

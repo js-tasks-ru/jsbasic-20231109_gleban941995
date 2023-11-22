@@ -1,9 +1,17 @@
 function isEmpty(obj) {
   // ваш код...
-  function isEmpty(obj) {
-    for (let key in obj) {
+  for (let key in obj) {
+    if (obj.hasOwnProperty(key)) {
       return false;
     }
-    return true;
   }
+  return true;
 }
+
+let schedule = {};
+
+console.log(isEmpty(schedule)); // true
+
+schedule["8:30"] = "подъём";
+
+console.log(isEmpty(schedule)); // false
