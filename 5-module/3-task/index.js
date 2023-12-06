@@ -45,4 +45,8 @@ function initCarousel() {
       carouselArrowLeft.style.display = '';
     }
   }
+ HEAD
 }
+
+
+ c72894679e90286da8d7180ed064fef931619edf
