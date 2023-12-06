@@ -14,5 +14,3 @@ function makeDiagonalRed(table) {
   }
 }
 
-const table = document.querySelector('table');
-makeDiagonalRed(table);
