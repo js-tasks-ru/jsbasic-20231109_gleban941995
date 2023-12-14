@@ -13,12 +13,10 @@ function isValid(name) {
   if (name == null){
     return false
   }
-  for (let char of name){
-    if (char===' '){
-      return false}
+  name.includes(' ')
   }
   return(name.length > 3)
-}
+
 
 function sayHello() {
   let userName = prompt('Введите ваше имя');
